@@ -20,3 +20,5 @@ The second broadcast, and the season's ending: the middle is made next, in publi
 | `cast/` | The characters as of this episode, projected from their dressing rooms |
 
 Made in the writers' room. The release is locked: later episodes can answer it, never rewrite it.
+
+License: [CC0 1.0](LICENSE). Public domain; use it, change it, ship it.
