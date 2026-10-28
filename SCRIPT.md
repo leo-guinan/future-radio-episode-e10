@@ -51,7 +51,7 @@ Episode 10 is the second broadcast. The ending arrives before the middle.
 
 **AGNOLO:** They invited us to the restaurant at the end of the universe, Maestro. That is not liking. That is where things come to be judged.
 
-**YURIA:** Tonight's press conference is a premortem. Messer Agnolo will put this season on trial before it has been made. The defendant is the plan.
+**YURIA:** Tonight's press conference is a premortem. Messer Agnolo will put the season on trial before it has been made. The defendant is the plan.
 
 **LEONARDO:** And I am…?
 
