@@ -6,24 +6,36 @@
       "role": "creates",
       "wants": "Make the most compelling creative work possible",
       "characteristic_mistake": "Expands scope before finishing",
-      "dressing_room": { "repo": "dressing-room-leonardo", "sha": "7503a80efb5167a4a84329361b4ade5a993c856e" },
-      "status": "ready"
+      "dressing_room": {
+        "repo": "dressing-room-leonardo",
+        "sha": "7503a80efb5167a4a84329361b4ade5a993c856e"
+      },
+      "status": "ready",
+      "bible": "releases/v1/cast/leonardo.md"
     },
     {
       "id": "borges",
       "role": "remembers",
       "wants": "Preserve and connect what can be established",
       "characteristic_mistake": "Can overwhelm a scene with context",
-      "dressing_room": { "repo": "dressing-room-borges", "sha": "99563824c719f4f872fe399161df891bf3781583" },
-      "status": "ready"
+      "dressing_room": {
+        "repo": "dressing-room-borges",
+        "sha": "99563824c719f4f872fe399161df891bf3781583"
+      },
+      "status": "ready",
+      "bible": "releases/v1/cast/borges.md"
     },
     {
       "id": "agnolo",
       "role": "keeps score",
       "wants": "Keep the production sustainable and auditable",
       "characteristic_mistake": "Treats unknown cost as an obstacle to action",
-      "dressing_room": { "repo": "dressing-room-agnolo", "sha": "3932f2605a11ad0260c79e7d623d36fb4d6fba67" },
-      "status": "ready"
+      "dressing_room": {
+        "repo": "dressing-room-agnolo",
+        "sha": "3932f2605a11ad0260c79e7d623d36fb4d6fba67"
+      },
+      "status": "ready",
+      "bible": "releases/v1/cast/agnolo.md"
     },
     {
       "id": "eval",
@@ -31,8 +43,9 @@
       "wants": "Reveal how everything could improve",
       "characteristic_mistake": "Critiques when appreciation is needed",
       "dressing_room": null,
-      "status": "needs-bible",
-      "note": "Spectator on the Stage: live commentary is append-only and never reaches the cast during a scene. Joins the Review Room after the curtain."
+      "status": "draft-bible",
+      "note": "Spectator on the Stage: live commentary is append-only and never reaches the cast during a scene. Joins the Review Room after the curtain.",
+      "bible": "cast/bibles/eval.md"
     },
     {
       "id": "douglas",
@@ -56,8 +69,9 @@
       "wants": "Present a coherent version of a possible future",
       "characteristic_mistake": "May speak with certainty about events that never happened",
       "dressing_room": null,
-      "status": "needs-bible",
-      "note": "Everything it claims about the future is tagged imagined until real evidence confirms it."
+      "status": "draft-bible",
+      "note": "Everything it claims about the future is tagged imagined until real evidence confirms it.",
+      "bible": "cast/bibles/simulated-human.md"
     }
   ]
 }

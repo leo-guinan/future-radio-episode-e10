@@ -1,0 +1,4 @@
+{
+  "$comment": "USD per million tokens by model id. Left null on purpose: prices are not guessed, and a take's cost stays null (unknown) until real figures are filled in here. Token counts are always recorded.",
+  "claude-sonnet-5-5": { "in_per_mtok": null, "out_per_mtok": null }
+}

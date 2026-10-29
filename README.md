@@ -6,7 +6,18 @@ Episode 10 is assembled from situations, character states and competing intentio
 
 The experiment isn't whether AI can write the dialogue we already imagined. It's whether these characters can produce dialogue we wouldn't have thought to write.
 
-**Status:** laboratory set up. No takes have been run yet. First experiment: scene S05, three variations.
+**Status:** laboratory and run harness set up. No real takes have been run yet. First experiment: scene S05, three variations.
+
+## Running a take
+
+```
+export ANTHROPIC_API_KEY=...            # never commit this
+python3 lab/selftest.py                 # free: proves isolation and append-only behavior with a mock provider
+python3 lab/run_take.py S05 a           # take: runs/S05/variation-a/
+python3 lab/run_take.py S05 a --review  # review room: runs/S05/variation-a-review/
+```
+
+Python 3 standard library only. `--provider mock` is a free dry run. Set the model with `--model` or `LAB_MODEL`. Costs are recorded as tokens; dollar cost stays `null` until real prices are filled into `lab/prices.json`. Freeze `eval/rubric.json` (`"frozen": true`) before comparing scores across variations.
 
 ## Layout
 
@@ -16,7 +27,9 @@ The experiment isn't whether AI can write the dialogue we already imagined. It's
 | `DESIGN.md` | How a scene runs: the two-room architecture, the three architectural rules, knowledge tags, compression |
 | `SHOW_PLAN.md` | The plan and the locked rules |
 | `world-state.json` | What is observed, believed and imagined as the lab starts |
-| `cast/initial-states.json` | Each character's wants, characteristic mistake and starting beliefs |
+| `cast/initial-states.json` | Each character's wants, characteristic mistake and bible location |
+| `cast/bibles/` | Draft bibles for EVAL and the Simulated Human (no dressing rooms yet) |
+| `lab/` | The run harness: take runner, prompts (versioned by hash), mock-provider self-test |
 | `eval/rubric.json` | EVAL's 100-point rubric and three unscored questions |
 | `scenarios/` | S01–S12, each with world state, character states, trigger and exit condition |
 | `runs/` | One folder per take: transcript, final state, EVAL's assessment, commentary, scene card |
