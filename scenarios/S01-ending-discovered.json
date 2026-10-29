@@ -1,0 +1,61 @@
+{
+  "id": "S01",
+  "title": "Borges Finds the Ending",
+  "role": "Main plot · Discovery · Establishes the temporal contradiction",
+  "wave": 1,
+  "source": "Scene Laboratory design, section 2",
+  "cast": [
+    "leonardo",
+    "borges",
+    "agnolo"
+  ],
+  "cast_status": "confirmed",
+  "run_order": 2,
+  "world_state": {
+    "observed": [
+      "See world-state.json."
+    ],
+    "believed": {
+      "borges": "The outline is evidence of something, though he cannot yet say of what.",
+      "leonardo": "A finished ending is a gift; waiting for the events would waste it.",
+      "agnolo": "An outline is a forecast. Producing from it books a future cost against an unlived past."
+    },
+    "believed_status": "draft",
+    "imagined": []
+  },
+  "starting_positions": {
+    "borges": "Has found the outline and wants to establish what it actually is.",
+    "leonardo": "Wants to produce the outlined ending immediately.",
+    "agnolo": "Wants to know whether an outline counts as a completed deliverable."
+  },
+  "trigger": "Borges discovers an outline describing Episode 10 before the intervening events have happened.",
+  "constraints": [],
+  "exit_condition": "The room decides whether to produce the outlined ending, or someone names the contradiction aloud: the story has been completed before the events occurred.",
+  "exit_condition_status": "draft",
+  "dramatic_objective": "Establish the temporal contradiction.",
+  "variations": [
+    {
+      "id": "a",
+      "start": "The outline is unsigned and undated",
+      "status": "proposed-draft"
+    },
+    {
+      "id": "b",
+      "start": "The outline contains two incompatible endings",
+      "status": "proposed-draft"
+    },
+    {
+      "id": "c",
+      "start": "The outline is in Borges's own hand and he does not remember writing it",
+      "status": "proposed-draft"
+    }
+  ],
+  "turn_budget": {
+    "min": 12,
+    "max": 20
+  },
+  "isolation": {
+    "variations_see_each_other": false,
+    "cast_hears_eval": false
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "S10",
+  "title": "Request a Song That Doesn't Exist",
+  "role": "World-building · Audience participation · Seeds a future episode",
+  "wave": 2,
+  "source": "Scene Laboratory design, section 2",
+  "cast": [
+    "leonardo",
+    "borges",
+    "agnolo"
+  ],
+  "cast_status": "proposed",
+  "extras": [
+    "caller"
+  ],
+  "world_state": {
+    "observed": [
+      "See world-state.json."
+    ],
+    "believed": "To be authored before this scene runs.",
+    "believed_status": "unwritten",
+    "imagined": []
+  },
+  "starting_positions": {
+    "leonardo": "Decide whether to promise, create, schedule or reinterpret the request.",
+    "borges": "Decide whether to promise, create, schedule or reinterpret the request.",
+    "agnolo": "Decide whether to promise, create, schedule or reinterpret the request."
+  },
+  "trigger": "A caller asks Future Radio for a song that hasn't been made. The station treats it as an ordinary request.",
+  "constraints": [],
+  "exit_condition": "The characters choose among promising, creating, scheduling or reinterpreting the request.",
+  "exit_condition_status": "draft",
+  "dramatic_objective": "Seed a future episode through audience participation.",
+  "variations": [],
+  "turn_budget": {
+    "min": 12,
+    "max": 20
+  },
+  "isolation": {
+    "variations_see_each_other": false,
+    "cast_hears_eval": false
+  }
+}

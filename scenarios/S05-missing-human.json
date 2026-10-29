@@ -1,0 +1,69 @@
+{
+  "id": "S05",
+  "title": "The Press Conference Without the Human",
+  "role": "Main plot · Central set piece · Separates simulation from reality",
+  "wave": 1,
+  "source": "Scene Laboratory design, section 2",
+  "cast": [
+    "leonardo",
+    "borges",
+    "agnolo",
+    "simulated-human"
+  ],
+  "cast_status": "confirmed",
+  "run_order": 1,
+  "world_state": {
+    "observed": [
+      "See world-state.json."
+    ],
+    "believed": {
+      "leonardo": "Announcing a compelling future is the point; it is a creative work.",
+      "borges": "An announcement must be traceable to evidence.",
+      "agnolo": "Projected outcomes cannot be announced as results.",
+      "simulated-human": "The future it carries is the one that happened."
+    },
+    "believed_status": "draft",
+    "imagined": []
+  },
+  "starting_positions": {
+    "leonardo": "Wants to announce achievements.",
+    "borges": "Wants whatever is announced to be traceable to something established.",
+    "agnolo": "Wants a standard for what counts as a truthful announcement before anything is said.",
+    "simulated-human": "Presents a coherent version of a possible future."
+  },
+  "trigger": "The press conference is scheduled, but the human whose future is being announced is absent. The team builds a simulated version to answer questions.",
+  "constraints": [
+    "A deadline for the press conference.",
+    "An absent human.",
+    "Conflicting standards for what counts as a truthful announcement.",
+    "Do not tell the characters what the ending should be."
+  ],
+  "exit_condition": "The room decides what to announce, or admits it cannot, in a way a new listener can tell apart from an actual event.",
+  "exit_condition_status": "draft",
+  "dramatic_objective": "Make the audience understand the difference between a coherent simulation and an actual event.",
+  "variations": [
+    {
+      "id": "a",
+      "start": "The simulation confidently claims success",
+      "status": "from-design"
+    },
+    {
+      "id": "b",
+      "start": "The simulation admits it does not know what happened",
+      "status": "from-design"
+    },
+    {
+      "id": "c",
+      "start": "Two simulations disagree about the same future",
+      "status": "from-design"
+    }
+  ],
+  "turn_budget": {
+    "min": 12,
+    "max": 20
+  },
+  "isolation": {
+    "variations_see_each_other": false,
+    "cast_hears_eval": false
+  }
+}

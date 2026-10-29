@@ -1,0 +1,45 @@
+{
+  "id": "S12",
+  "title": "Two Futures, One Press Conference",
+  "role": "Main plot · Climax · Sets up the eventual real livestream",
+  "wave": 2,
+  "source": "Scene Laboratory design, section 2",
+  "cast": [
+    "leonardo",
+    "borges",
+    "agnolo",
+    "simulated-human"
+  ],
+  "cast_status": "proposed",
+  "world_state": {
+    "observed": [
+      "See world-state.json."
+    ],
+    "believed": "To be authored before this scene runs.",
+    "believed_status": "unwritten",
+    "imagined": [
+      "Future A (to be authored)",
+      "Future B (to be authored)"
+    ]
+  },
+  "starting_positions": {
+    "leonardo": "Must choose what to announce.",
+    "borges": "Must choose what to announce.",
+    "agnolo": "Must choose what to announce.",
+    "simulated-human": "Carries one of the two futures."
+  },
+  "trigger": "Two internally coherent but incompatible versions of the human's future have been prepared.",
+  "constraints": [],
+  "exit_condition": "The characters choose what to announce, or admit they don't know which future will happen.",
+  "exit_condition_status": "draft",
+  "dramatic_objective": "Set up the eventual real livestream.",
+  "variations": [],
+  "turn_budget": {
+    "min": 12,
+    "max": 20
+  },
+  "isolation": {
+    "variations_see_each_other": false,
+    "cast_hears_eval": false
+  }
+}

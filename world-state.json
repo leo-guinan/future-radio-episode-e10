@@ -1,0 +1,31 @@
+{
+  "$comment": "Shared world state as the lab starts. Three kinds of knowledge are kept apart: observed (actual documents, costs, feedback, completed work), believed (per character, lives in each scenario), imagined (hypotheticals and simulated outcomes). Nothing enters canon from here; see decisions/canon.json.",
+  "as_of": "2026-10-29",
+  "observed": [
+    {
+      "fact": "Episode 10 v1, 'The People vs. The Future', was released as audio on 2026-10-28 (8:23) and is locked.",
+      "source": "releases/v1/RELEASE.md"
+    },
+    {
+      "fact": "v1 audio generation cost $4.84 in ElevenLabs grant credits against a $20.00 cash ceiling; founder hours were not recorded.",
+      "source": "releases/v1/LEDGER.md"
+    },
+    {
+      "fact": "In Episode 001 Agnolo billed the first transmission at three thousand dollars, thirty days of Leonardo's life, and predicted the second costs twenty.",
+      "source": "releases/v1/cast/agnolo.md (E01 v1, as released)"
+    },
+    {
+      "fact": "Dressing rooms exist for Borges, Leonardo and Agnolo; none is referenced yet for EVAL, Douglas, the Idea or the Simulated Human.",
+      "source": "releases/v1/PROVENANCE.json"
+    }
+  ],
+  "believed": {
+    "$comment": "Per-character beliefs are set in each scenario, because they change scene to scene."
+  },
+  "imagined": [],
+  "gaps": [
+    "No cash ceiling, deadline or runtime set for the lab (see SHOW_PLAN.md).",
+    "Founder hours for the lab are not yet recorded.",
+    "The two incompatible futures for S12 have not been authored."
+  ]
+}

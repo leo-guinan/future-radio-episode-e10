@@ -1,0 +1,40 @@
+{
+  "id": "S03",
+  "title": "The Past Didn't Clock In",
+  "role": "Recurring subplot · Historical receipts · Introduces the missing cost of creation",
+  "wave": 2,
+  "source": "Scene Laboratory design, section 2",
+  "cast": [
+    "borges",
+    "agnolo",
+    "leonardo"
+  ],
+  "cast_status": "from-description",
+  "world_state": {
+    "observed": [
+      "See world-state.json."
+    ],
+    "believed": "To be authored before this scene runs.",
+    "believed_status": "unwritten",
+    "imagined": []
+  },
+  "starting_positions": {
+    "agnolo": "Refuses to assign invented historical labor hours to it.",
+    "leonardo": "Sees reusable creative material.",
+    "borges": "Has the evidence and wants it connected to what can be established."
+  },
+  "trigger": "Borges discovers evidence of creative work from before the writers' room's zero point.",
+  "constraints": [],
+  "exit_condition": "The room decides how pre-zero work is recorded: as reusable material, as a separate historical ledger, or as unknown.",
+  "exit_condition_status": "draft",
+  "dramatic_objective": "Introduce the missing cost of creation without inventing receipts.",
+  "variations": [],
+  "turn_budget": {
+    "min": 12,
+    "max": 20
+  },
+  "isolation": {
+    "variations_see_each_other": false,
+    "cast_hears_eval": false
+  }
+}

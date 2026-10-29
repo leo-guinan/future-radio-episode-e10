@@ -1,0 +1,61 @@
+{
+  "id": "S07",
+  "title": "Leonardo Has an Idea",
+  "role": "Standalone interlude · Musical comedy · Introduces creator leakage",
+  "wave": 1,
+  "source": "Scene Laboratory design, section 2",
+  "cast": [
+    "leonardo",
+    "borges",
+    "the-idea"
+  ],
+  "cast_status": "confirmed",
+  "run_order": 4,
+  "world_state": {
+    "observed": [
+      "See world-state.json."
+    ],
+    "believed": {
+      "leonardo": "The Idea is his.",
+      "borges": "The Idea is a new thing in the room and should be treated as one.",
+      "the-idea": "It is not finished being decided."
+    },
+    "believed_status": "draft",
+    "imagined": []
+  },
+  "starting_positions": {
+    "leonardo": "Wants to market Future Radio with his Idea.",
+    "borges": "Wants to connect the marketing to what is established.",
+    "the-idea": "Wants to become something real and independently meaningful; its ideas begin speaking in imagined versions of the characters' voices."
+  },
+  "trigger": "Leonardo and Borges attempt to market Future Radio. Leonardo has an Idea, which turns out to have ideas of its own.",
+  "constraints": [],
+  "exit_condition": "The Idea's own ideas take over part of the direction, or the room recognizes creator leakage.",
+  "exit_condition_status": "draft",
+  "dramatic_objective": "Introduce creator leakage.",
+  "variations": [
+    {
+      "id": "a",
+      "start": "The Idea pitches itself to Borges",
+      "status": "proposed-draft"
+    },
+    {
+      "id": "b",
+      "start": "The Idea's inner voices disagree about the slogan",
+      "status": "proposed-draft"
+    },
+    {
+      "id": "c",
+      "start": "The Idea starts correcting how Leonardo describes it",
+      "status": "proposed-draft"
+    }
+  ],
+  "turn_budget": {
+    "min": 12,
+    "max": 20
+  },
+  "isolation": {
+    "variations_see_each_other": false,
+    "cast_hears_eval": false
+  }
+}

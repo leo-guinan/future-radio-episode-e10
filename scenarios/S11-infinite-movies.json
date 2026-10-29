@@ -1,0 +1,40 @@
+{
+  "id": "S11",
+  "title": "The Infinite Movies Pitch",
+  "role": "Main plot · Vision · Bridges the movie and the Artup",
+  "wave": 2,
+  "source": "Scene Laboratory design, section 2",
+  "cast": [
+    "leonardo",
+    "borges",
+    "agnolo"
+  ],
+  "cast_status": "from-description",
+  "world_state": {
+    "observed": [
+      "See world-state.json."
+    ],
+    "believed": "To be authored before this scene runs.",
+    "believed_status": "unwritten",
+    "imagined": []
+  },
+  "starting_positions": {
+    "leonardo": "Sees the vision.",
+    "borges": "Distinguishes an actual working prototype from a future business.",
+    "agnolo": "Demands evidence of demand and a sustainable cost structure."
+  },
+  "trigger": "Leonardo realizes the movie factory could produce stories for other fellowship applicants.",
+  "constraints": [],
+  "exit_condition": "The room separates what exists from what is projected, and names the evidence still missing.",
+  "exit_condition_status": "draft",
+  "dramatic_objective": "Bridge the movie and the Artup.",
+  "variations": [],
+  "turn_budget": {
+    "min": 12,
+    "max": 20
+  },
+  "isolation": {
+    "variations_see_each_other": false,
+    "cast_hears_eval": false
+  }
+}

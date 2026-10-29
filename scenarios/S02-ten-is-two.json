@@ -1,0 +1,40 @@
+{
+  "id": "S02",
+  "title": "Ten Is Two",
+  "role": "Main plot · Comedy · Opens alternate timelines",
+  "wave": 2,
+  "source": "Scene Laboratory design, section 2",
+  "cast": [
+    "leonardo",
+    "borges",
+    "agnolo"
+  ],
+  "cast_status": "from-description",
+  "world_state": {
+    "observed": [
+      "See world-state.json."
+    ],
+    "believed": "To be authored before this scene runs.",
+    "believed_status": "unwritten",
+    "imagined": []
+  },
+  "starting_positions": {
+    "agnolo": "Insists Episode 10 must follow nine episodes.",
+    "borges": "Points out it can be the second one released.",
+    "leonardo": "Treats the inconsistency as a production opportunity rather than a mistake."
+  },
+  "trigger": "The characters disagree about the episode numbering.",
+  "constraints": [],
+  "exit_condition": "The room treats the contradictory numbering as an advantage and a second timeline is opened.",
+  "exit_condition_status": "draft",
+  "dramatic_objective": "Turn an inconsistency into a production asset.",
+  "variations": [],
+  "turn_budget": {
+    "min": 12,
+    "max": 20
+  },
+  "isolation": {
+    "variations_see_each_other": false,
+    "cast_hears_eval": false
+  }
+}

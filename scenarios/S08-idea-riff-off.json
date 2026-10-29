@@ -1,0 +1,44 @@
+{
+  "id": "S08",
+  "title": "The Riff-Off Inside the Idea",
+  "role": "Standalone musical · Character experiment · Demonstrates creative direction",
+  "wave": 2,
+  "source": "Scene Laboratory design, section 2",
+  "cast": [
+    "the-idea"
+  ],
+  "cast_status": "from-description",
+  "inner_voices": [
+    "leonardo",
+    "borges",
+    "agnolo"
+  ],
+  "world_state": {
+    "observed": [
+      "See world-state.json."
+    ],
+    "believed": "To be authored before this scene runs.",
+    "believed_status": "unwritten",
+    "imagined": []
+  },
+  "starting_positions": {
+    "the-idea": "Tries to finish its own song.",
+    "leonardo": "Inner voice competing to decide what the Idea should become.",
+    "borges": "Inner voice competing to decide what the Idea should become.",
+    "agnolo": "Inner voice competing to decide what the Idea should become."
+  },
+  "trigger": "The Idea attempts to sing about becoming real.",
+  "constraints": [],
+  "exit_condition": "The Idea finishes its song, or it cannot, and what it struggled over is clear.",
+  "exit_condition_status": "draft",
+  "dramatic_objective": "Demonstrate creative direction as competing musical ideas combine and multiply.",
+  "variations": [],
+  "turn_budget": {
+    "min": 12,
+    "max": 20
+  },
+  "isolation": {
+    "variations_see_each_other": false,
+    "cast_hears_eval": false
+  }
+}

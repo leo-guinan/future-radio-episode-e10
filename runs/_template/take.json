@@ -1,0 +1,39 @@
+{
+  "$comment": "Copy to runs/<scene>/<take>/take.json. Fill 'record' before the run so a surprising result can be traced to the scenario, the characters or a model change. Takes are append-only: never edit a finished take, start a new one.",
+  "scene_id": "S05",
+  "take": "variation-a",
+  "stage": {
+    "cast": ["leonardo", "borges", "agnolo", "simulated-human"],
+    "eval_audible": false
+  },
+  "observation": {
+    "observer": "eval",
+    "mode": "live",
+    "visible_to_cast": false,
+    "append_only": true
+  },
+  "curtain": {
+    "trigger": "scene_exit_condition",
+    "turn_budget": { "min": 12, "max": 20 }
+  },
+  "review": {
+    "release_to_cast": "after_curtain",
+    "initial_assessment_locked": true,
+    "allow_cast_rebuttal": true
+  },
+  "next_take": {
+    "inherits_review": true,
+    "requires_explicit_state_selection": true
+  },
+  "record": {
+    "model": null,
+    "prompt_versions": {},
+    "bible_commits": {},
+    "generation_settings": {},
+    "rubric_version": 1,
+    "cost_usd": null,
+    "started_at": null,
+    "finished_at": null
+  },
+  "artifacts": ["transcript.jsonl", "final-state.json", "eval.json", "commentary.md", "scene-card.md"]
+}

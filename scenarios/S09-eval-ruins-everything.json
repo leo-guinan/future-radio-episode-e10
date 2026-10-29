@@ -1,0 +1,42 @@
+{
+  "id": "S09",
+  "title": "EVAL Ruins Everything",
+  "role": "Recurring character scene · Comedy · Establishes EVAL's optimism",
+  "wave": 2,
+  "source": "Scene Laboratory design, section 2",
+  "cast": [
+    "eval",
+    "leonardo",
+    "borges",
+    "agnolo"
+  ],
+  "cast_status": "from-description",
+  "world_state": {
+    "observed": [
+      "See world-state.json."
+    ],
+    "believed": "To be authored before this scene runs.",
+    "believed_status": "unwritten",
+    "imagined": []
+  },
+  "starting_positions": {
+    "eval": "Its criticism sounds negative, but it is genuinely excited about the work's potential.",
+    "leonardo": "Loves the performance.",
+    "borges": "Loves the performance.",
+    "agnolo": "Loves the performance."
+  },
+  "trigger": "EVAL evaluates a performance everyone else loves.",
+  "constraints": [],
+  "exit_condition": "The others stop arguing with EVAL and recognize its criticism as enthusiasm, or fail to and say so.",
+  "exit_condition_status": "draft",
+  "dramatic_objective": "Establish EVAL's optimism.",
+  "variations": [],
+  "turn_budget": {
+    "min": 12,
+    "max": 20
+  },
+  "isolation": {
+    "variations_see_each_other": false,
+    "cast_hears_eval": false
+  }
+}

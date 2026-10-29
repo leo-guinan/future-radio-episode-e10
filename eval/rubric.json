@@ -1,0 +1,23 @@
+{
+  "$comment": "EVAL's experimental rubric. Adjust weights before a run; freeze them for comparisons between variations. Weights sum to 100.",
+  "version": 1,
+  "frozen": false,
+  "criteria": [
+    { "id": "character-fidelity",   "weight": 20, "question": "Do the characters behave from their own beliefs and motivations?" },
+    { "id": "emergence",            "weight": 25, "question": "Did the interaction produce something not already dictated by the setup?" },
+    { "id": "dramatic-movement",    "weight": 20, "question": "Did the situation meaningfully change?" },
+    { "id": "audience-clarity",     "weight": 15, "question": "Can a new listener follow the conflict without an explanation?" },
+    { "id": "distinctive-dialogue", "weight": 15, "question": "Are the voices recognizable and the exchanges worth hearing?" },
+    { "id": "production-efficiency","weight": 5,  "question": "Can the scene be staged simply with reusable assets?" }
+  ],
+  "unscored": [
+    "What surprised you? Quote a specific exchange and explain why it wasn't obvious from the setup.",
+    "Where did the scene lose its way? Identify the exact point rather than offering generic criticism.",
+    "What is the smallest change worth testing next? Propose one new scenario constraint, not a wholesale rewrite."
+  ],
+  "rules": [
+    "The final assessment is written and locked before EVAL hears the cast's defenses; a revised position is recorded alongside it, never over it.",
+    "Live commentary is kept separate from the scored evaluation.",
+    "EVAL does not rewrite the scene in its first assessment."
+  ]
+}

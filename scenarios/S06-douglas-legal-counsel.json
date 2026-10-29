@@ -1,0 +1,61 @@
+{
+  "id": "S06",
+  "title": "Douglas Adams, Legal Counsel",
+  "role": "Recurring subplot · Copyright comedy · Explores authorship in a generative universe",
+  "wave": 1,
+  "source": "Scene Laboratory design, section 2",
+  "cast": [
+    "douglas",
+    "agnolo",
+    "borges"
+  ],
+  "cast_status": "confirmed",
+  "run_order": 3,
+  "world_state": {
+    "observed": [
+      "See world-state.json."
+    ],
+    "believed": {
+      "douglas": "Authorship settles the rights question.",
+      "agnolo": "Historical credit is not a license for this particular use.",
+      "borges": "The Douglas in the room is a simulation, and that matters."
+    },
+    "believed_status": "draft",
+    "imagined": []
+  },
+  "starting_positions": {
+    "douglas": "Argues that he wrote the thing.",
+    "agnolo": "Insists that a fictional version of the author present does not grant rights.",
+    "borges": "Holds what can be established about who and what is in the room."
+  },
+  "trigger": "Douglas arrives to provide legal protection for copyrighted material associated with the press conference.",
+  "constraints": [],
+  "exit_condition": "Douglas's claim to authority is tested and his role changes or he insists on keeping it anyway.",
+  "exit_condition_status": "draft",
+  "dramatic_objective": "Explore authorship in a generative universe.",
+  "variations": [
+    {
+      "id": "a",
+      "start": "Douglas arrives with paperwork that looks official",
+      "status": "proposed-draft"
+    },
+    {
+      "id": "b",
+      "start": "Douglas concedes the legal point early and keeps arguing anyway",
+      "status": "proposed-draft"
+    },
+    {
+      "id": "c",
+      "start": "Borges argues Douglas's side",
+      "status": "proposed-draft"
+    }
+  ],
+  "turn_budget": {
+    "min": 12,
+    "max": 20
+  },
+  "isolation": {
+    "variations_see_each_other": false,
+    "cast_hears_eval": false
+  }
+}

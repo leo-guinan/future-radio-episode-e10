@@ -1,0 +1,40 @@
+{
+  "id": "S04",
+  "title": "We Like Movies, Not Snapshots",
+  "role": "Main plot · Creative conflict · Connects the real challenge to the factory",
+  "wave": 2,
+  "source": "Scene Laboratory design, section 2",
+  "cast": [
+    "leonardo",
+    "borges",
+    "agnolo"
+  ],
+  "cast_status": "from-description",
+  "world_state": {
+    "observed": [
+      "See world-state.json."
+    ],
+    "believed": "To be authored before this scene runs.",
+    "believed_status": "unwritten",
+    "imagined": []
+  },
+  "starting_positions": {
+    "leonardo": "Wants a spectacle.",
+    "borges": "Wants a narrative with actual change.",
+    "agnolo": "Asks what can be produced with available resources."
+  },
+  "trigger": "The team encounters the original creative challenge: make a movie rather than a collection of impressive images.",
+  "constraints": [],
+  "exit_condition": "The room commits to what 'a movie' means for this production and what it will and won't make.",
+  "exit_condition_status": "draft",
+  "dramatic_objective": "Connect the real challenge to the factory.",
+  "variations": [],
+  "turn_budget": {
+    "min": 12,
+    "max": 20
+  },
+  "isolation": {
+    "variations_see_each_other": false,
+    "cast_hears_eval": false
+  }
+}
